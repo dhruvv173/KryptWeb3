@@ -23,8 +23,8 @@ const Footer = () => (
     <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
 
     <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
-      <p className="text-white text-left text-xs">THe Transactions displayed above are Dummy Transactions. Your Transactions can be viewed by making changes in the code OR in the console.</p>
-      <p className="text-white text-right text-xs">Get the code here</p>
+      <p className="text-white text-left text-xs">THe Transactions displayed above are Dummy Transactions. Your Transactions can be viewed by making changes in the code.</p>
+      <a href="https://github.com/dhruvv173/KryptWeb3.0" className="text-white text-right text-xs cursor-pointer">Get the code here</a>
     </div>
   </div>
 );
